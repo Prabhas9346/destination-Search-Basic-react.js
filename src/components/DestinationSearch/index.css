@@ -1,0 +1,30 @@
+/* Write your CSS here */
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+.Box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.SearchBox {
+  background-color: #f1f5f9;
+  justify-content: space-around;
+  display: flex;
+  padding: 5px;
+  border-radius: 5px;
+}
+.searchIcon {
+  width: 25px;
+}
+input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
